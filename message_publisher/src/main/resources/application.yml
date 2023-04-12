@@ -1,0 +1,10 @@
+server:
+  port: # set your server port
+
+spring:
+  rabbitmq:
+    host: # set host
+    port: # set port
+    username: # set user
+    password: # set password
+    virtual-host: # set virtual host
