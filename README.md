@@ -3,7 +3,7 @@ sending message between different language
 서로 다른 언어간의 메시지 송수신
 
 ## 개요
-서버를 spring boot를 사용할 때,  
+서버로 spring boot를 사용할 때,  
 특정 작업(ex. AI 모델 관련 작업)에서 python 코드를 사용해야할 경우, 해당 작업을 celery worker가 수행할 수 있도록 만들었습니다.  
 이 프로젝트는 spring boot에서 메시지를 rabbitMQ에 publish하고, queue에 쌓인 message를 celery가 consume하는 간단한 예시 프로젝트입니다.  
 이 프로젝트를 참고하여 필요한 부분은 직접 추가 후 사용하시면 될 것 같습니다 :)
